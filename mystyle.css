@@ -1,17 +1,19 @@
-/* body {
-    background-color: lightblue;
-  }
-  
-  h1 {
-    color: navy;
-    margin-left: 20px;
-  } */
 
 body {    
-    background-image: url("test2.jpg");
-    background-color: #cccccc;
+    background-image: url("/Users/chilliesause/Desktop/MyWebsite/content/test2.jpg");
+    background-color: white;
     background-repeat: no-repeat;
+
 }
+
+h1{
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    margin: 0px;
+    padding: 20px;
+    text-align: center;
+}
+
 .box{
     width: 450px;
     background: rgba(0, 0, 0, 0.4);
@@ -29,9 +31,12 @@ body {
 }
 
 .box h5{
+    color: white;
+    font-family: 'Rubik', sans-serif;
     font-size: 20px;
-    letter-spacing: 1px;
-    font-weight: 100;
+    font-weight: 400;
+    text-align: center;
+
 }
 
 .box p{
