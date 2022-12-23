@@ -1,10 +1,11 @@
 
 body {    
-    background-image: url("/Users/chilliesause/Desktop/MyWebsite/content/test2.jpg");
+    background-image: url("./content/qwerty6.gif");
     background-color: white;
     background-repeat: no-repeat;
-
+    background-size: cover;
 }
+
 
 h1{
     color: white;
@@ -33,14 +34,16 @@ h1{
 .box h5{
     color: white;
     font-family: 'Rubik', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 400;
     text-align: center;
+    margin-top: -5px;
 
 }
 
 .box p{
-    text-align: justify;
+    text-align: center;
+    padding-bottom: 50px;
 }
 ul{
     margin: 0;
